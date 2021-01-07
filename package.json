@@ -1,0 +1,29 @@
+{
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "description": "📦🚀 React Electron Parcel Boilerplate",
+    "main": "src/electron/index.js",
+    "scripts": {
+        "start": "node scripts/start.js",
+        "electron": "electron .",
+        "build": "node scripts/build.js"
+    },
+    "keywords": [
+        "react",
+        "electron",
+        "parcel"
+    ],
+    "author": "Ferenc Almasi",
+    "license": "ISC",
+    "dependencies": {
+        "react": "17.0.1",
+        "react-dom": "17.0.1"
+    },
+    "devDependencies": {
+        "electron": "11.1.1",
+        "electron-packager": "15.2.0",
+        "electron-reloader": "1.1.0",
+        "electron-winstaller": "4.0.1",
+        "parcel-bundler": "1.12.4"
+    }
+}
