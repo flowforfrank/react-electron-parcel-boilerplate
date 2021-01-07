@@ -9,6 +9,7 @@ A minimal boilerplate for [React](https://reactjs.org/) + [Electron](http://elec
 
 Run the following commands to start the project:
 
+- `git clone https://github.com/flowforfrank/react-electron-parcel-boilerplate.git`
 - `npm i`
 - `npm run start`
 
