@@ -6,7 +6,8 @@ const options = {
     publicUrl: './',
     sourceMaps: false,
     autoInstall: false,
-    hmr: false
+    hmr: false,
+    target: 'electron'
 };
 
 let electronStarted = false;

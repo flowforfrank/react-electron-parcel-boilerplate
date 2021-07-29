@@ -5,7 +5,11 @@ try {
 } catch (_) {}
 
 const createWindow = () => {
-    const window = new BrowserWindow();
+    const window = new BrowserWindow({
+        webPreferences: {
+            nodeIntegration: true
+        }
+    });
 
     window.loadFile('build/index.html');
 };
