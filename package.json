@@ -24,6 +24,7 @@
         "electron-packager": "15.2.0",
         "electron-reloader": "1.1.0",
         "electron-winstaller": "4.0.1",
-        "parcel-bundler": "1.12.4"
+        "parcel-bundler": "1.12.4",
+        "sass": "1.36.0"
     }
 }
